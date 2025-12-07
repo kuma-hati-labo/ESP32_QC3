@@ -7,8 +7,8 @@
  * ESP32 WebUI Include
  ********************/
 #include <WiFi.h>
-#include <AsyncTCP.h>
-#include <ESPAsyncWebServer.h>
+#include <AsyncTCP.h>            /* AsyncTCP by ESP32Async 3.4.9 */
+#include <ESPAsyncWebServer.h>   /* ESPAsyncWebServer by ESP32Async 3.9.2 */
 
 /********************
  * LED設定
